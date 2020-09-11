@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    Op deze manier kunnen we een comment plaatsen in die niet wordt uitgevoerd
+    maar wel leesbaar is zoals je ziet kan je dit over meerdere regels doen
+
+    Als we een css bestand willen gebruiken voor styling kunnen we deze toevoegen
+    dit doen we op de volgende manier
+    dit doen we in de head zodat hij als eerste wordt geladen!
+    -->
+    <link rel="stylesheet" type="text/css"
+            href="in_de_map_css\mijnstyle.css">
+    
+    <!--
+    in de head zien we vaak metadate terug, dit is data over data
+    -->
+    <meta hhtp-equiv="Content-Type" content="text/html"; charset=UTF-8/>
+    <meta name="description" content="voeg heer een beschrijving toe"/>
+    <meta name="keywords" content="zet hier je trefwoorden die google kan doorzoeken , separated!!!" />
+    
+    <title>Hier Komt de Title</title>
+</head>
+    <body><!--bevat alles op de webpagina content-->
+        <!--
+        Het CSS kunnen we de verschillende elementen aanpassen
+        begin css
+        -->
+        
+        <!--vertel wat we gaan stylen, in dit geval h1-->
+        <style type="text/css">
+            h1 {
+            font-style: italic;
+            color: green ;
+        }
+        </style>
+        <!--einde css-->
+        <h1>Welkom in alinea 1</h1>
+        <p>Dit is gewoon teks</p>
+        <em>deze tekst wordt benadrukt (emphasized)</em>
+        <!--we kunnen ook stylen in een element zoals is laten zijn bij h2-->
+        <h2 style="font-style: italic; color: red ;" >Dit is alinea 2 (Header lvl 2)</h2>
+        <hr /> <!--horizontale lijn-->
+        <br /> <!--op deze manier maken we een regeleinde/break-->
+        
+        <!--onderstaande tags moeten gevuld worden met extra waarden-->
+        <a href="linkje.html">zo heet nu de link</a> <!--creeeren van een hyperlink-->
+        <img src="naam_van_iets_in_deze_map.gif" alt="alternatieve tekst" /> <!--maak plaatje-->
+    
+        <!--structured tags deze tags gaan altijd samen!!!!
+        ul en ol horen bij een list, li kan dus niet zonder ul of ol-->
+        <ul>  <!--unordered_list (met bolletjes er voor)-->
+            <li>koffie</li>
+            <li>Thee</li>
+            <li>Chocomaal</li>
+        </ul>
+
+        <ol>  <!--ordered list (met cijfers er voor)-->
+            <li>koffie</li>
+            <li>Thee</li>
+            <li>Chocomaal</li>
+        </ol>
+        <!--ook een Cel is een gestructureerde tag-->
+        <table border=2> <!--dit voegt een rand toe, zodat de cel niet tegen de zijkant van het scherm staat-->>
+        <tr><!--table row-->>
+            <td>cel 1</td><td>cel 2</td><!--table depth-->>
+        </tr>
+        <tr>
+            <td>cel 3</td><td>cel 4</td>
+        </tr>
+        </table>
+
+    </body>
+</html>
