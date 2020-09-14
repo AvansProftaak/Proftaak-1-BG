@@ -10,7 +10,7 @@
     <meta name="keywords" content="opdracht, html, les, uitleg, vragen, HBO, informatica" />
 
     <!--De title wordt in het tabblad bovenaan in de balk getoont-->
-    <title>Hier Komt de Title</title> 
+    <title>Oefening webdesign 1</title> 
 </head>
     <body>  <!--bevat alles op de webpagina content-->
             <!--
@@ -29,7 +29,13 @@
 
         <h1>Bart Grootoonk</h1>
             <!--wij kunnen ook in een header tag de style aanpassen-->
+            <p>Onderstaand een paar links</p>
+                <!--onderstaande tags moeten gevuld worden met extra waarden-->
+            <a href="eerstelink.html">Deze link gaan naar eerstelink.html</a><br /> <!--creeeren van een hyperlink-->
+            <a href="https://www.certifiedsecure.com/profile?alias=BartG" target="_blank">Certified Secure profiel </a><br />
+            <a href="https://www.facebook.com/bart.grootoonk" target="_blank">Linkje naar facebook</a><br />
             <br />
+        
 
         <h2 style="font-style: italic; color: red ;" >studienummer: 2166442 klas:  groep:4A</h2>
             <hr /> <!--horizontale lijn-->
@@ -147,7 +153,7 @@
             </p>
             <br />
 
-        <h4><b>Doel van Keywords</b><h4>
+        <h3><b>Doel van Keywords</b></h3>
             <br />
             <p>
             Het doel van de keywords is om deze met een zoekmachine te kunnen doorzoeken.
@@ -155,7 +161,7 @@
             </p>
             <br />
 
-        <h5><b>Het doel van de description</b></h5>
+        <h3><b>Het doel van de description</b></h3>
             <br />
             <p>
             De description is bedoeld om een webpagina samen te vatten in maximaal 160 characters.
@@ -164,14 +170,14 @@
             </p>
             <br />
 
-        <h6><b>Pagina broncode met ctrl + u</b></h6>
+        <h3><b>Pagina broncode met ctrl + u</b></h3>
             <br />
             <p>
             Als je in je browser ctrl + u indruk zal je een nieuw tabblad openen met daarin de broncode van de website welke je bezoekt.
             </p>
             <br />
 
-        <h7><b>Inspecting the elements</b></h7>
+        <h3><b>Inspecting the elements</b></h3>
             <br />
             <p>
             Waneer we in een browser ctrl + shift + i indrukken kunnen we elementen inspecteren.
@@ -180,12 +186,11 @@
             </p>
             <br />
             <a href="images\scrnsht.png">
-                <img title="Screenshot behorende bij inspecting the elements" src="images\scrnsht.png" alt="de screenshot van inspect element" style="width:300px;height:200px;"/> <!--maak plaatje-->
+                <img title="Screenshot behorende bij inspecting the elements" src="images\scrnsht.png" target="_blank" alt="de screenshot van inspect element" style="width:300px;height:200px;"/> <!--maak plaatje-->
             </a>
             <br />
 
-        <h8><b>Tags voor basis opmaak</b><h8>
-            <br />
+        <h3><b>Tags voor basis opmaak</b></h3>
             <p>
             In de basis opmaak van een html bestand kunnen wij op de volgende manier dingen veranderen:
                 <ul>
@@ -196,46 +201,38 @@
                 </ul>
             </p>
 
-        <h9><b>Tags voor verschillende computer talen</b></h9>
+        <h3><b>Tags voor verschillende computer talen</b></h3>
             <p>
-            
+            #TODO: ga na wat met deze opdracht wordt bedoeld
             </p>
-        <!--onderstaande tags moeten gevuld worden met extra waarden-->
-        <a href="linkje.html">zo heet nu de link</a> <!--creeeren van een hyperlink-->
-        
-    
-        <!--structured tags deze tags gaan altijd samen!!!!
-        ul en ol horen bij een list, li kan dus niet zonder ul of ol-->
-        <ul>  <!--unordered_list (met bolletjes er voor)-->
-            <li>koffie</li>
-            <li>Thee</li>
-            <li>Chocomaal</li>
-        </ul>
+
+        <h1 rgb(0,255,0) style="background-color:#FF0000;">Dit wordt nu groen en de achtergrond wordt rood</h1>
+        <h1 #ff0000 style="background-color:rgb(0,255,0);">En nu andersom</h1>
 
 
         <!--ook een Cel is een gestructureerde tag-->
-        <table border=2> <!--dit voegt een rand toe, zodat de cel niet tegen de zijkant van het scherm staat-->>
-        <tr><!--table row-->>
-            <td>cel 1</td><td>cel 2</td><!--table depth-->>
+        <table border=2> <!--dit voegt een rand toe, zodat de cel niet tegen de zijkant van het scherm staat-->
+        <tr><!--table row-->
+            <th>Naam</th><th>Maker</th><th>datum release</th><th>versienummer</th> <th>link</th><!--table depth-->
         </tr>
         <tr>
-            <td>cel 3</td><td>cel 4</td>
+            <td>Internet Explorer</td><td>Thomas Reardon</td><td>1995</td><td>11.0</td><td><a href="https://www.microsoft.com/en-gb/download/details.aspx?id=41628" target="_blank">Internet explorer</a></td>
+        </tr>
+        <tr>
+            <th>opera</td><th>Opera Software</td><td>1995</tdh><td>58.0</td><td><a href="https://www.opera.com/computer/thanks?ni=stable&os=windows" target="_blank">Opera</a></td>
+        </tr>
+        <tr>
+            <th>Chrome</td><th>Google</td><td>2008</tdh><td>85.0.4183.102</td><td><a href="https://www.google.nl/intl/nl/chrome/?brand=CHBD&gclid=Cj0KCQjwqfz6BRD8ARIsAIXQCf3yS2QNVTbGGfd8OuvhvyJH7eC7CsMUEcrKtqExyfrNQgbtKFCnEokaAqi9EALw_wcB&gclsrc=aw.ds" target="_blank">Chrome</a></td>
+        </tr>
+        <tr>
+            <th>Firefox</td><th>Blake Aaron Ross &amp Dave Hyatt</td><td>2002</tdh><td>80.0.1</td><td><a href="https://www.mozilla.org/nl/firefox/new/" target="_blank">Firefox</a></td>
+        </tr>
+
+        <tr>
+            <th>Vivaldi</td><th>Jon Stephenson von Tetzchner</td><td>2016</tdh><td>3.3</td><td><a href="https://vivaldi.com/nl/download/" target="_blank">Vivaldi</a></td>
         </tr>
         </table>
 
-        <!--
-        Tevens nog wat makkelijke dingen om toe te kunnen voegen
-        deze special characters kunnen code breken als je ze zomaar wild in het rond strooit
-        voeg ze dus ook op de volgende manier toe
-
-        non-breaking-space              &nbsp;
-        <                               &lt;
-        >                               &gt;
-        &                               &amp;
-        "                               &quot;
-        '                               &apos;
-
-        -->
 
     </body>
 </html>
