@@ -3,9 +3,29 @@ h1{
 }
 
 #lorem_ipsum{
-    padding-top:50px;
+    padding-top:20px
 }
 
 #lorem_ipsum .row{
     float: left;
+    width: 33.3%;
 }
+
+#menu {
+    list-style:none;
+    position: fixed;
+
+    top:0;
+    text-align: left;
+    background-color: grey;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  #menu li{
+      display: inline-block;
+  }
+
+  #menu li button:hover{
+      background-color: aquamarine;
+  }
