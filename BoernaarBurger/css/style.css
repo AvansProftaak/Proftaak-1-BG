@@ -3,7 +3,7 @@ body {
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
-    background-color: darkslategrey;
+    background-color: slategray;
 }
 
 ul{
@@ -93,7 +93,7 @@ Foto door Johannes Plenio via Pexels
     padding: 20px;
     color: black;
     background-color: cadetblue;
-    border-top: #dd4f28 3px solid;;
+    border-top: #dd4f28 3px solid;
     border-bottom: #dd4f28 3px solid;
 }
 
@@ -118,4 +118,35 @@ Foto door Johannes Plenio via Pexels
     border: none;
     background-color: #dd4f28;
     color: white;
+}
+
+#photos{
+    margin-top: 30 px;
+}
+
+#photos .photo{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5 px;
+}
+
+#photos .photo img{
+    padding-top: 30px;
+    width: 40%;
+}
+
+footer{
+    height: auto;
+    background-color: cadetblue;
+    border-top: #dd4f28 3px solid;
+    padding-bottom: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+footer .current{
+    color: #dd4f28;
+    font-weight: bold;
 }
