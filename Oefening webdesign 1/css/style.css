@@ -1,0 +1,11 @@
+h1{
+    background-color: lightgray;
+}
+
+#lorem_ipsum{
+    padding-top:50px;
+}
+
+#lorem_ipsum .row{
+    float: left;
+}
