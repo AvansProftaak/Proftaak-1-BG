@@ -1,0 +1,128 @@
+van rob:	letterytpe		
+	   <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=BioRhyme' rel='stylesheet'>
+		<p class="fontAmatic">BRENGT DE BOER NAAR JE TOE</p><br>
+		<h3 class= "header3">De beste streekproducten op jouw bord</h3>
+		
+<!--    Navigatiebar -->
+    <nav class="navbar">
+        <a href="index.html" class="dropbtn fontDosis">HOME</a>
+        <div class="dropdown">
+
+<!--            Dropdown bar-->
+            <button onclick="dropdownFunction()" class="dropbtn fontDosis">WEBWINKEL</button>
+            <div id="DropHome" class="dropdown-content fontDosis">
+                <a href="West-Brabant.html">West-Brabant</a>
+                <a href="index.html ">Midden-Brabant</a>
+                <a href="index.html">Oost-Brabant</a>
+            </div>
+
+<!--            Vervolg navigatiebar-->
+        </div>
+        <a href="index.html " class="dropbtn fontDosis ">OVER ONS</a>
+        <a href="index.html " class="dropbtn fontDosis ">CONTACT</a>
+<!--        <input type="text" placeholder="Zoek product...">-->
+    </nav>
+		
+Daniel:		header 
+
+	<div class="header">
+		<img src="images/header b2b.jpg" alt="Boer naar Burger" style="max-width:100%;">
+	</div>
+	pram:	homecol en footer
+	
+	        <div class="home-content clearfix">
+            <div class="homecol">
+                <h2>Wie zijn wij..</h2>
+                <img src="/bnb2/img/team.jpg" alt="het team">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni optio est quis quod quisquam laboriosam, culpa natus velit facere nulla praesentium tempore qui saepe cumque possimus assumenda at sed temporibus.</p>
+                <p>Et iste reiciendis quam cum dolores natus quo iure unde molestias, aspernatur voluptatum quasi minima architecto autem beatae odio qui nisi similique!</p>
+                
+                <a href="#"><i class="fab fa-envira"></i> Lees ons verhaal &raquo; </a>
+            </div> <!--homecol-->
+            <div class="homecol">
+                <h2>Waarom ons kiezen..</h2>
+                <div class="why">
+                    <img src="/bnb2/img/icon/statistics-market-icon.png" alt="Marketing">
+                    <h3>Eerste reden</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati praesentium veniam neque, eos doloribus omnis iste accusamus. Placeat, explicabo vero laborum quas voluptatibus hic ipsam, repudiandae, necessitatibus facilis adipisci impedit?</p>
+
+                    <img src="/bnb2/img/icon/dollar-rotation-icon.png" alt="Goedkoop">
+                    <h3>Tweede reden</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eum ad inventore iure beatae suscipit dolore nesciunt illum blanditiis, accusamus expedita dignissimos fugiat unde laboriosam esse deserunt sit et veritatis!</p>
+
+                    <img src="/bnb2/img/icon/lock-icon.png" alt="secure">
+                    <h3>Derde reden</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officia sequi autem facere? Sit, culpa dicta tempora quae voluptatum enim quisquam reiciendis placeat sapiente velit eius ducimus voluptas eaque quis!</p>
+                </div> <!--why-->
+            </div> <!--homecol-->
+            <div class="homecol">
+                <h2>Wat klanten zeggen..</h2>
+                <div class="reviews">
+                    <i class="fas fa-quote-left fa-3x"></i>
+                    <h3>Piet de Boer</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, consectetur quisquam labore optio, aliquid necessitatibus voluptate error eaque sunt blanditiis saepe aperiam nemo quod quos. Officiis hic ducimus quas possimus!</p>
+
+                    <i class="fas fa-quote-left fa-3x"></i>
+                    <h3>Peer de Boer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis ex ab quasi sit itaque exercitationem porro fuga. Illum facere cupiditate, quos possimus labore ipsam nihil tempora sunt minima quod?</p>
+                </div> <!--reviews-->
+
+                <div class="googlerew">
+                    <img src="/bnb2/img/reviews.png" alt="Google Reviews">
+                </div> <!--googlerew-->
+
+            </div> <!--homecol-->
+
+        </div> <!--home-content-->
+
+        <div class="footer clearfix">
+            <div class="footercol">
+                <h4>Boer naar Burger B.V.</h4>
+                <div class="footeradres">
+                    <i class="fas fa-map-marker-alt fa-3x"></i>
+                    <h5> Burgerstraat 33</h5>
+                    <p>4412 BG, Breda</p>
+                </div> <!--footeradres-->
+
+                <div class="telmail">
+                    <p><i class="fas fa-phone-square-alt"></i> 088 0123 456</p>
+                    <p><i class="fas fa-at"></i> info@boernaarburger.nl</p>
+                </div>
+
+            </div> <!--footercol-->
+
+            <div class="footercol">
+                <h4>Navigatie</h4>
+                <ul class="navigatie">
+                    <li>
+                        <a href="#">&raquo; Breda</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo; Tilburg</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo; Roosendaal</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo; Bergen op Zoom</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo; Dordrecht</a>
+                    </li>
+                </ul>
+
+            </div> <!--footercol-->
+
+            <div class="footercol">
+                <h4>footer 3</h4>
+
+            </div> <!--footercol-->
+
+            <div class="footercol"> 
+                <h4>footer 4</h4>
+
+            </div> <!--footercol-->
+        </div> <!--footer-->
